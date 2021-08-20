@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/img/faviconn.png" rel="icon">
+    <link href="assets/css/styleLogin.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Login</title>
+</head>
+<body class="carousel-item active" style="background-image: url(assets/img/slide/slider0.jpg)">
+    <div class="wrapper fadeInDown" >
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <h1 class="titulo">Create una cuenta</h1>
+          </div>
+      
+          <!-- Login Form -->
+          <form action="assets/logica/registro.php" method="POST">
+            <input type="text" id="login" class="fadeIn second" name="nombres" placeholder="Nombres">
+            <input type="text" id="login" class="fadeIn second" name="apellidos" placeholder="Apellidos">
+            <input type="email" id="login" class="fadeIn second" name="correo" placeholder="Correo electronico">
+            <input type="number" id="login" class="fadeIn second" name="telefono" placeholder="Teléfono">
+            <input type="text" id="login" class="fadeIn second" name="tipoSangre" placeholder="Tipo de sangre">
+            <input type="text" id="login" class="fadeIn second" name="ciudad" placeholder="Ciudad">
+            <input type="password" id="password" class="fadeIn third" name="contrasena" placeholder="Contraseña">
+            <input type="submit" class="fadeIn fourth" value="Crear">
+            <br>
+            <a class="inicio2" href="login.html">¿Ya tienes una cuenta? Ingresa aquí</a>
+          </form>   
+        </div>
+      </div>
+</body>
+</html>
